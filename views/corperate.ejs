@@ -1,0 +1,87 @@
+<%-include('header')-%>
+<body>
+    
+    <div id="container">
+        <%-include('sidebar')-%>
+        <!-- End of side bar -->
+        <main>
+            <!-- Adding the cooperates -->
+            <div id="management">
+
+                <div id="mangebtns">
+                    <div id="mangebtn">
+                        Add Cooperate
+                    </div>
+                    
+                    <div id="mangebtn">
+                      Contact Person
+                    </div>
+                    <div id="mangebtn">
+                       Regulations
+                    </div>
+                    <div id="mangebtn">
+                        Cooperate Benefits
+                    </div>
+                    <div id="mangebtn">
+                        Rules
+                    </div>
+
+                </div>
+                 <div id="modals">
+                     <div id="addcopo">
+                         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- coperate Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div id="inputs">
+              <label for="code">Code</label>
+            <input type="text" id="code" name="code" placeholder="Code">
+          </div>
+          <div id="inputs">
+            <label for="Cooperate">Cooperate</label>
+          <input type="text" id="Cooperate" name="code" placeholder="Cooperate Name">
+        </div>
+
+        <div id="inputs">
+            <label for="Tel no.">Tel no.</label>
+          <input type="text" id="Tel no." name="Tel no." placeholder="Tel no.">
+        </div>
+
+        <div id="inputs">
+            <label for="Mobile No">Mobile No</label>
+          <input type="text" id="Mobile" name="Mobile No" placeholder="Mobile No">
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                     </div>
+                 </div>
+            </div>
+
+           
+
+        </main>
+        <div class="right">
+            to the left
+        </div>
+    </div>
+</body>
